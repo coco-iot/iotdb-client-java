@@ -1,4 +1,4 @@
-package com.neo.fastdfs;
+package com.luomor.fastdfs;
 
 import org.csource.common.MyException;
 import org.csource.common.NameValuePair;
@@ -109,7 +109,7 @@ public class FastDFSClient {
 
 	private static TrackerServer getTrackerServer() throws IOException {
 		TrackerClient trackerClient = new TrackerClient();
-		TrackerServer trackerServer = trackerClient.getConnection();
+		TrackerServer trackerServer = trackerClient.getTrackerServer();
 		return  trackerServer;
 	}
 }
