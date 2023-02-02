@@ -4,8 +4,8 @@
   http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.neo</groupId>
-    <artifactId>spring-boot-fastDFS</artifactId>
+    <groupId>com.luomor</groupId>
+    <artifactId>demo</artifactId>
     <packaging>jar</packaging>
     <version>1.0</version>
 
