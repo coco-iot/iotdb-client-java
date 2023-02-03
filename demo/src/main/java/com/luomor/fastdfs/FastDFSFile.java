@@ -1,4 +1,4 @@
-package com.neo.fastdfs;
+package com.luomor.fastdfs;
 
 public class FastDFSFile {
 	private String name;
