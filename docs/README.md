@@ -11,5 +11,8 @@ vscode java.configuration.runtimes
 mvn package
 mvn clean package
 
+http://localhost:8012
+http://localhost:8012/iot
+
 java -cp target/iotdb-demo-1.0.jar com.luomor.service.SessionService
 ```
