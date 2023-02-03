@@ -21,8 +21,8 @@ import java.util.Map;
  * @date 2021/11/24 14:31
  * @Version 1.0
  */
-// @Component
-// @Configuration
+@Component
+@Configuration
 public class IotDbConfig {
 
     private static final Logger log = LoggerFactory.getLogger(IotDbConfig.class);
