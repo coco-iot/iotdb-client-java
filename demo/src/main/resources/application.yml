@@ -7,6 +7,12 @@ spring:
       multipart:
         max-file-size: 10MB
         max-request-size: 10MB
+  iotdb:
+    username: root
+    password: root
+    ip: 172.21.16.11
+    port: 6667
+    maxSize: 100
   datasource:
     username: root
     password: root
