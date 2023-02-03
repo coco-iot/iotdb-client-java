@@ -60,7 +60,20 @@ public class SessionService {
   private static final String ROOT_SG1_D1 = "root.sg1.d1";
   private static final String LOCAL_HOST = "127.0.0.1";
 
-  public static void test(String[] args)
+  public static void main(String[] args) {
+    SessionService sessionService = new SessionService();
+    try {
+      sessionService.test();
+    } catch (IoTDBConnectionException e) {
+      // TODO Auto-generated catch block
+      e.printStackTrace();
+    } catch (StatementExecutionException e) {
+      // TODO Auto-generated catch block
+      e.printStackTrace();
+    }
+  }
+
+  public void test()
       throws IoTDBConnectionException, StatementExecutionException {
     session =
         new Session.Builder()

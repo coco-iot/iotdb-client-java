@@ -7,4 +7,7 @@ java -cp session/target/client-example-1.0.0.jar org.apache.iotdb.SessionExample
 Implicit super constructor Object() is undefined for default constructor. Must define an explicit constructor
 
 vscode java.configuration.runtimes
+
+mvn package
+mvn clean package
 ```
