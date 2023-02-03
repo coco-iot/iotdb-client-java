@@ -10,4 +10,6 @@ vscode java.configuration.runtimes
 
 mvn package
 mvn clean package
+
+java -cp target/iotdb-demo-1.0.jar com.luomor.service.SessionService
 ```
